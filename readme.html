@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<title>Read Me First.</title>
+	</head>
+	<style>
+	  :root {
+		  --main-theme-color: #3B5998;		}
+	</style>
+<body>
+ <div id="main">
+   <div class="inner center">
+    <div id="detailsouterframe">
+	
+	<div id="detailsframe">
+     <div id="title">
+		Free php mysql torrentz2.eu clone torrent tracker search engine script.
+	 </div>
+	 
+	 <div id="details">
+	 <p>	 
+<h5>Setup completely automated torrent tracker site with ads in few minutes.<br/>
+It regularly grabs thousands of latest torrents automatically. </h5>
+</p>
+<b>Author:</b> Sk Md Imtiaj<br/>
+<b>Email:</b> info@boysofts.com<br/>
+<b>Website: </b><a href="https://www.boysofts.com" target="_blank">boysofts.com</a>&#129109;<br/>
+<br/><br/>
+<b>Features:</b>
+<ol> 
+<li>Quick installation.</li>
+<li>Setup guide (readme).</li>
+<li>Light weight.</li>
+<li>Very fast.</li>
+<li>Ajax.</li>
+<li>Auto update database.</li> 
+<li>Hourly fresh contents.</li>
+<li>Rss feed.</li>
+<li>Built in 4 ads spots.</li> 
+<li>Beautiful design.</li>
+</ol>
+
+<b>Server Requirements:</b>
+<ol> 
+<li>php > 5.x or Later</li>
+<li>MySql > 5.x or Later</li>
+<li>CHMOD (disk read, write access)</li>
+</ol> 
+
+<b>Installation:</b>
+<ol> 
+<li>Unzip the script directory.</li><br/>
+
+<li>Open "<b>phpmyadmin</b>" panel and create a new database for this script i.e "torrents_dir".</li><br/>
+
+<li>Import "<b>database.sql</b>" (find in "<b>database_sql</b>" directory) file's content to your newly created database.</li><br/>
+
+<li>Edit "<b>settings.php</b>" file.</li><br/>
+
+<li>
+(<b>Important</b>) Assign "<b>$site_url</b>" with the full url of your installation.<br/>  
+    i.e "<b>https://www.example.com/torrents/</b>",  including the trailing slash. <br/>
+	Blank or wrong url, will not work.
+</li><br/>
+	
+<li>
+Assign Your contact email id for "<b>$site_admin_email</b>". <br/>
+     Required to contact you for future updates.
+</li><br/>
+	 
+<li>"<b>$site_domain</b>" variable with your domain name i.e "<b>torrentdownloads.com</b>".</br/>
+	Will be used to append in the torrent download name like:
+	<br/>"<b>[torrentdownloads.com] some_torrent_file.torrent</b>". 
+	<br/>So be it short and sweet.
+</li><br/>
+
+<li>
+(<b>Important</b>) Now edit MySql database settings variables in "<b>db-config.php</b>" file-></li><br/>
+  <ol>
+     <li>"<b>$database_host</b>"     : with MySql database host url.</li><br/>
+	 <li>"<b>$database_user</b>"     : with MySql database user name.</li><br/>
+	 <li>"<b>$database_password</b>" : with MySql database password.</li><br/>
+	 <li>"<b>$database_name</b>"     : with MySql database name (your created for this site).</li>
+  </ol><br/>
+	
+<li><b>Congratulation:</b> Your site is ready.<br/><br/> Visit the site, if every thing is ok, it automatically start fetching torrents in back ground. 
+   Will take few seconds to load for the first time.</li><br/>
+</ol>
+
+<br/><br/>
+<b>Customization & SEO:</b>
+<ol>
+<li>Paste <b>Google analytics</b> code in "<b>analytics_code.php</b>" file inside "<b>ads</b>" directory.</li><br/>
+<li>Choose <b>$site_title</b>, <b>$meta_keywords</b>, <b>$meta_description</b> in <b>settings.php</b> wisely.</li><br/>
+<li>Put your <b>$contact_emails</b> and <b>$contact_address</b>.</li><br/>
+<li>Choose theme color: <b>$main_theme_color</b>, hexadecimal triplet value, i.e "<b>#3B5998;</b>".</li><br/>
+<li>Edit footer links in "<b>templates/footer.php</b>" file.</li><br/>
+</ol> 
+
+<b>Monetization & Ads Setup:</b>
+<ol>
+<li>Sign up to ads network to monetize your site (i.e <b>popads, exoclick</b> etc).</li><br/>
+<li>Popads here: <a href="http://bit.ly/2V4PueV" target="_blank">Popads</a>&#129109;.</li><br/>
+<li>ExoClixk here: <a href="http://bit.ly/2SW6bXj" target="_blank">ExoClick</a>&#129109;.</li><br/>
+<li>Paste <b>Popads</b> popunder ads code in "<b>analytics_code.php</b>" file inside "<b>ads</b>" directory.</li><br/>
+<li>Paste <b>ExoClick</b> banner ads in "<b>top_ad.php</b>" file inside "<b>ads</b>" directory.</li><br/>
+<li>Paste <b>ExoClick</b> bottom ads in "<b>bottom_ad.php</b>" file inside "<b>ads</b>" directory</li><br/>
+<li>There are also left and right side bar ads spot available. 
+<br/>Enable those in "<b>settings.php</b>" and paste ad code inside "ads" directory.</li><br/>
+</ol> 
+
+<b>Traffic & promotion:</b>
+<ol>
+<li>Submit new tv shows or movies to reddit from your site.</li><br/>
+<li>Share automatically with <b><a href="https://ifttt.com/" target="_blank">ifttt</a></b> using rss feeds.</li><br/>
+<li>Rss feed Urls are "<b>https://yoursite.com/?rss=$category</b>". 
+    <br/>Possible <b>$category</b> values: <b>tv, movies, musics, games, xxx, applications, others</b>.
+	<br/><br/> i.e "https://yoursite.com/?rss=<b>tv</b>" or "https://yoursite.com/?rss=<b>movies</b>".</li><br/>
+<li>Post to twitter or whatever you like.</li><br/>
+<li>Ping your site using <a href="https://pingler.com" target="_blank">pingler.com</a> or <a href="https://pingomatic.com" target="_blank">pingomatic.com</a>.</li><br/>
+<li>Create few blogger blog posts.</li><br/>
+<li>Create few forum posts on file sharing forums.</li><br/>
+</ol> 
+
+<b>Tips:</b>
+<ol>
+<li>Increase revenue with many sites with different domains & settings (keywords, title).</li><br/>
+<li>Use free web hosting services.</li><br/>
+<li>More site means more money.</li><br/>
+</ol> 
+
+<b>Notes:</b>
+<ol>
+<li>This script and the api is not fully developed yet, many features coming soon.</li><br/>
+<li>You can also submit bug report, feature request or code improvement.</li><br/>
+<li>For Custom development contact me at "<b>info@boysofts.com</b>".</li><br/>
+</ol>
+
+<b>Thanks.</b>
+	 </div>
+	 
+	</div>
+	</div>
+   </div>
+ </div>
+ 
+<!--scroll to top -->
+<button onclick="topFunction()" id="scrollToTop" title="Go to top">&#128743;</button>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollToTop").style.display = "block";
+  } else {
+    document.getElementById("scrollToTop").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<!--scroll to top end -->
+</body>
+</html>
+
