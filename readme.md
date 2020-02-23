@@ -116,7 +116,7 @@ It regularly grabs thousands of latest torrents automatically.
       
     i.e "https://yoursite.com/?rss=**tv**" or "https://yoursite.com/?rss=**movies**".
   
-7.  Post to twitter or whatever you like.
+7.  Post to twitter or whaerever you like.
   
 9.  Ping your site using [pingler.com](https://pingler.com) or [pingomatic.com](https://pingomatic.com).
   
@@ -130,8 +130,6 @@ It regularly grabs thousands of latest torrents automatically.
 1.  Increase revenue with many sites with different domains & settings (keywords, title).
   
 3.  Use free web hosting services.
-  
-5.  More site means more money.
   
 
 **Notes:**
